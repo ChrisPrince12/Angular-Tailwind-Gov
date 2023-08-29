@@ -1,0 +1,38 @@
+<div class="sticky top-0 z-[9999]">
+
+<div class="flex justify-between items-center bg-secondary text-sm text-white h-11 w-full px-6">
+  <div>
+    <button class="toggle-button py-1 flex small:visible md:hidden"><fa-icon [icon]="faBars"></fa-icon> <span class="px-2">MENU</span></button>
+  </div>
+
+  <div class="grow flex">
+    <form action="" class="flex relative small:hidden md:flex ">
+      <input type="text" class="form-input flex-1 h-8 rounded-md text-primary" placeholder="Search" />
+      <span class="absolute inset-y-0 right-0 flex items-center pr-3">
+        <fa-icon [icon]="faMagnifyingGlass" class="text-secondary"></fa-icon>
+      </span>
+    </form>
+  </div>
+
+  <div class="flex grow items-center small:hidden break1:flex">
+    <ul class="flex space-x-4">
+      <li>Barua Pepe: <a href="">me@home.go.tz</a></li>
+      <li><a href="">Mawasiliano</a></li>
+      <li><a href="">Mrejesho</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <li class="flex items-center space-x-1 px-2 py-1 bg-accent text-secondary">
+      <p>Lang |</p>
+      <div class="space-x-2 ">
+        <button class="px-3  bg-white hover:bg-accent">Eng </button>
+        <button class="px-3  bg-white hover:bg-accent">Sw</button>
+      </div>
+    </li>
+  </div>
+</div>
+</div>
+
+
+

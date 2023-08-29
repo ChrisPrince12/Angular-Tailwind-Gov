@@ -1,0 +1,48 @@
+<div class="flex justify-center mx-auto items-center">
+    <ul class="text-center w-full justify-center shadow-md hidden flex-wrap md:flex md:flex-nowrap menu-list py-1 small:px-0 small:divide-y-2 break1:divide-y-0  top-full bg-white left-0  text-md">
+      <li class="hover:bg-accent/10 pb-1 rounded-lg small:shadow-sm break1:shadow-none">
+        <form action="" class="flex relative md:hidden">
+          <input type="text" class="form-input flex-1 h-8 rounded-md py-4 text-primary" placeholder="Search" />
+          <span class="absolute inset-y-0 right-0 flex items-center pr-3">
+            <fa-icon [icon]="faMagnifyingGlass" class="text-secondary"></fa-icon>
+          </span>
+        </form>
+      </li>
+      <li class="hover:bg-accent/10 break1:rounded-lg small:shadow-md break1:shadow-none">
+        <button><a routerLink="/">Home</a><fa-icon [icon]="faHouse" class="text-primary px-2 " size="sm"></fa-icon></button>
+      </li>
+      <li class="hover:bg-primary/10 break1:rounded-lg rounded-none relative">
+        <button class="toggle-submenu">Kuhusu Sisi <fa-icon [icon]="faAngleDown" class="caretDown px-2 " size="sm"></fa-icon></button>
+        <ul class="submenu  hidden absolute text-left top-full my-1 border-t-accent border-2 border-solid left-0 p-2 bg-white shadow-lg  w-full  min-w-max divide-y-2 z-10 text-sm">
+          <li><a routerLink="/pages/about-us">Dira Na Dhamira</a></li>
+          <li><a routerLink="/pages/history">Historia</a></li>
+        </ul>
+      </li>
+      <li class="hover:bg-primary/10 break1:rounded-lg rounded-none relative">
+        <button class="toggle-submenu">Utawala <fa-icon [icon]="faAngleDown" class="caretDown px-2 " size="sm"></fa-icon></button>
+        <ul class="submenu hidden absolute text-left top-full my-1 border-t-accent border-2 border-solid left-0 p-2 bg-white shadow-lg  w-full  min-w-max  divide-y-2 z-10 text-sm">
+          <li><a href="">Utawala Wa Ndani</a></li>
+          <li><a href="">Ramani Ya Utawala Wa Ndani</a></li>
+          <li><a href="">Utawala Wa Nje</a></li>
+          <li><a href="">Ramani Ya Utawala Wa Nje</a></li>
+        </ul>
+      </li>
+      <li class="hover:bg-primary/10 break1:rounded-lg rounded-none relative">
+        <button class="toggle-submenu">Machapisho <fa-icon [icon]="faAngleDown" class="caretDown px-2 " size="sm"></fa-icon></button>
+        <ul class="submenu hidden absolute text-left top-full my-1 border-t-accent border-2 border-solid left-0 p-2 bg-white shadow-lg w-full min-w-max  divide-y-2 z-10 text-sm">
+          <li><a href="">Hello</a></li>
+        </ul>
+      </li>
+      <li class="hover:bg-primary/10 break1:rounded-lg rounded-none">
+        <button>Ununuzi<fa-icon [icon]="faAngleDown" class="caretDown px-2 " size="sm"></fa-icon></button>
+      </li>
+      <li class="hover:bg-primary/10 break1:rounded-lg rounded-none">
+        <button>Utawala <fa-icon [icon]="faAngleDown" class="caretDown px-2 " size="sm"></fa-icon></button>
+      </li>
+      <li class="hover:bg-primary/10 break1:rounded-lg rounded-none">
+        <button>Kituo Cha Habari <fa-icon [icon]="faAngleDown" class="caretDown px-2 " size="sm"></fa-icon></button>
+      </li>
+    </ul>
+</div>
+
+

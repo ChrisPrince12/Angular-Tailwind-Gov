@@ -1,1 +1,74 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+ul li{
+  padding: 8px 4px;
+}
+
+ul li ul li:hover{
+  background-color: theme('colors.accent');
+}
+
+ul li button{
+  padding: 4px 4px;
+  box-sizing: border-box;
+}
+
+.submenu.open {
+  display: block;
+}
+
+/* carousel Control */
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-dots {
+  gap: 0.5rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #999;
+  cursor: pointer;
+}
+
+.carousel-navigation {
+  right: 1rem;
+}
+
+.nav-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.nav-button:hover .hidden {
+  visibility: visible;
+}
+.caretDown{
+  color: theme('colors.primary');
+}
+
+/* Carousel Control End */
+

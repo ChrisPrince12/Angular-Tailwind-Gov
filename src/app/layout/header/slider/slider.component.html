@@ -1,0 +1,61 @@
+<div class="flex break1:flex-row small:flex-col break1:mx-4 rounded-2xl max-w-full shadow-lg shadow-accent/10 gap-1 pt-2">
+
+  <div class="break1:w-1/2 md:w-full small:w-full h-[450px] rounded-xl flex justify-center items-center bg-gradient-to-b from-primary">
+
+    <div class="flex justify-center h-full w-full">
+        <div class="md:flex flex-col justify-center items-center relative">
+          <div>
+            <img class="w-[384px] h-96 object-cover rounded-lg" src="assets/img/benedict.png" alt="Director General Image">
+          </div>
+          <div>
+          <article class="prose p-8 bg-white text-center rounded-lg absolute bottom-0 left-0 right-0">
+            <div class="uppercase tracking-wide text-sm text-secondary font-semibold">Director General</div>
+            <h2 class="mt-2 text-accent">Eng Benedict Ndomba</h2>
+          </article>
+        </div>
+        </div>
+    </div>
+
+  </div>
+
+  <div class="relative">
+    <div class="flex overflow-hidden rounded-xl">
+      <div class="carousel">
+        <div class="carousel-item py-1 relative">
+          <img src="assets/img/image1.jpg" alt="Image 0" class="w-full h-auto max-h-[418px]" />
+          <div class="absolute bottom-0 left-0 right-0 p-8  text-center bg-white/90">
+            This is the Annual Meeting Of 12th
+          </div>
+        </div>
+        <div class="carousel-item relative">
+          <img src="assets/img/image.jpg" alt="Image 1" class="w-full h-auto max-h-[418px]" />
+          <div class="absolute bottom-0 left-0 right-0 p-8  text-center bg-white/90">
+            This is the Annual Meeting Of 13th
+          </div>
+        </div>
+        <div class="carousel-item relative">
+          <img src="assets/img/image2.jpg" alt="Image 2" class="w-full h-auto max-h-[418px]" />
+          <div class="absolute bottom-0 left-0 right-0 p-8   text-center bg-white/90">
+            This is the Annual Meeting Of 14th
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-dots  flex justify-center py-2">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+    <div class="carousel-navigation absolute top-1/2 transform -translate-y-1/2 flex items-center">
+      <button class="nav-button prev hidden">
+        <fa-icon [icon]="faChevronLeft"></fa-icon>
+      </button>
+      <button class="nav-button next hidden">
+        <fa-icon [icon]="faChevronRight"></fa-icon>
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<app-main></app-main>

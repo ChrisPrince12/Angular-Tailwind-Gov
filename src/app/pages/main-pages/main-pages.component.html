@@ -1,0 +1,79 @@
+<div class="grid grid-cols-12 max-w-screen-8xl break1:space-x-2 break1:space-y-0 small:space-y-2 mx-auto my-4">
+
+  <div class="break1:col-span-8 flex flex-col small:col-span-12 w-full bg-white shadow-lg">
+    <!-- Switch Content Of Left HandSide -->
+    <router-outlet></router-outlet>
+    <!-- End of Switch Content Of Left HandSid -->
+  </div>
+
+  <div class="break1:col-span-4 small:col-span-12 bg-white shadow-lg font-serif">
+
+    <!-- News Section -->
+    <div class="bg-primary/30 m-2 p-3 border-r-4 shadow-md border-accent">
+      <article class="prose"><h3>News</h3></article>
+    </div>
+
+    <div class="p-2">
+      <ul class="divide-y-2">
+        <li class="flex space-x-4 items-center hover:bg-secondary/20 py-2">
+          <div class="w-1/4 h-12">
+            <img src="assets/img/ega.png" alt="News" class="object-cover w-full h-full rounded-xl">
+          </div>
+          <div >
+          <a href="" class="flex flex-col space-y-1">
+            <div class="prose text-sm font-light">10 Apr,2023<span class="bg-green-700 py-1 motion-safe:animate-pulse rounded-lg px-2 text-white ml-3">New</span></div>
+            <div class="font-medium">This Is News Number Two</div>
+          </a>
+          </div>
+        </li>
+        <li class="flex space-x-4 items-center hover:bg-secondary/20 py-2">
+          <div class="w-1/4 h-12">
+            <img src="assets/img/coat.png" alt="News" class="object-cover w-full h-full rounded-xl">
+          </div>
+          <div >
+          <a href="" class="flex flex-col space-y-1">
+            <div class="prose text-sm font-light">11 June,2023<span class="bg-green-700 py-1 motion-safe:animate-pulse rounded-lg px-2 text-white ml-3">New</span></div>
+            <div class="font-medium">This Is News Number Three</div>
+          </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- End Of News Section -->
+
+    <!-- Announcemenr Section -->
+    <div class="bg-primary/30 m-2 p-3 border-r-4 shadow-md border-accent">
+      <article class="prose"><h3>Announcement</h3></article>
+    </div>
+
+    <div class="p-2">
+      <ul class="divide-y-2">
+        <li class="flex space-x-4 items-center hover:bg-secondary/20 py-2">
+          <div class="w-1/4 h-12">
+            <img src="assets/img/ega.png" alt="News" class="object-cover w-full h-full rounded-xl">
+          </div>
+          <div >
+          <a href="" class="flex flex-col space-y-1">
+            <div class="prose text-sm font-light">10 Apr,2023<span class="bg-green-700 py-1 motion-safe:animate-pulse rounded-lg px-2 text-white ml-3">New</span></div>
+            <div class="font-medium">This Is Announcement Number Two</div>
+          </a>
+          </div>
+        </li>
+        <li class="flex space-x-4 items-center hover:bg-secondary/20 py-2">
+          <div class="w-1/4 h-12">
+            <img src="assets/img/coat.png" alt="News" class="object-cover w-full h-full rounded-xl">
+          </div>
+          <div >
+          <a href="" class="flex flex-col space-y-1">
+            <div class="prose text-sm font-light">11 June,2023<span class="bg-green-700 py-1 motion-safe:animate-pulse rounded-lg px-2 text-white ml-3">New</span></div>
+            <div class="font-medium">This Is Announcement Number Three</div>
+          </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- End Of Announcement Section -->
+
+  </div>
+
+</div>
