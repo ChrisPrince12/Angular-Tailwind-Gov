@@ -8,6 +8,42 @@
   :root { font-family: 'Inter var', sans-serif; }
 }
 
+.service-block{
+  @apply relative flex flex-col shadow-md bg-slate-100 rounded-md p-5 justify-center items-center text-center;
+}
+.eventCard{
+  @apply flex space-x-4 items-center hover:bg-secondary/20 py-4;
+}
+.newsCard{
+  @apply flex space-x-4 items-center hover:bg-secondary/20 py-2;
+}
+.visionCard{
+  @apply flex small:flex-col break1:flex-row w-full bg-white break1:divide-x-2 gap-4 p-4 items-center rounded-lg shadow-md;
+}
+.news{
+  @apply flex space-x-4 items-center hover:bg-secondary/20 py-4;
+}
+.pulicationItem{
+  @apply flex gap-4 p-4 bg-white rounded-sm;
+}
+.howDoI{
+  @apply p-2 bg-white m-2 rounded-sm shadow-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-slate-100 duration-300;
+}
+.annoucementCard{
+  @apply flex space-x-4 items-center hover:bg-secondary/20 py-4;
+}
+.achievementCard
+{
+  @apply flex flex-col items-center gap-2 rounded-lg shadow-md justify-center text-center p-4;
+}
+.carouselText{
+  @apply absolute bottom-0 left-0 right-0 p-8  text-center bg-white/90;
+}
+.linksHover{
+  @apply hover:bg-primary/10 break1:rounded-lg rounded-none;
+}
+
+
 ul li{
   padding: 8px 4px;
 }
@@ -71,4 +107,3 @@ ul li button{
 }
 
 /* Carousel Control End */
-

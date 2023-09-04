@@ -1,36 +1,96 @@
-<div class="flex flex-col mx-auto max-w-full my-6 break1:px-6 small:p-2 break1:pb-8 bg-gradient-to-r from-secondary to-primary shadow-lg">
-
-  <div class="mx-auto flex prose justify-center after:w-10 after:h-1 my-4 py-1 after:bg-accent after:rounded-full after:absolute after:-bottom-1 relative">
+<div
+  class="flex flex-col mx-auto max-w-full my-6 break1:px-6 small:p-2 break1:pb-8 bg-gradient-to-r from-secondary to-primary shadow-lg">
+  <div
+    class="mx-auto flex prose justify-center after:w-10 after:h-1 my-4 py-1 after:bg-accent after:rounded-full after:absolute after:-bottom-1 relative">
     <h2 class="text-white">CONTENTS</h2>
   </div>
 
   <div class="grid small:grid-cols-1 break1:grid-cols-3 gap-4 w-full relative">
     <!-- Main Section -->
-     <app-news></app-news>
-     <app-events></app-events>
-     <app-announcement></app-announcement>
-     <!-- End Of Main Section -->
+    <app-news></app-news>
+    <app-events></app-events>
+    <app-announcement></app-announcement>
+    <!-- End Of Main Section -->
   </div>
-
 </div>
 
 <!-- Our Service -->
-  <div class="flex w-full h-96 bg-white">
-
+<div class="flex flex-col mx-auto w-full break1:px-6 break1:py-10 small:p-2">
+  <div
+    class="mx-auto flex prose justify-center after:w-10 after:h-1 py-1 after:bg-accent after:rounded-full after:absolute after:-bottom-1 relative">
+    <h2>OUR SERVICES</h2>
   </div>
+  <app-services></app-services>
+</div>
 <!-- End Of Our Service -->
 
 <!-- Achievement -->
 <app-achievement></app-achievement>
 <!-- End of Achievement -->
 
-<div class="flex justify-center my-4 gap-2">
-  <div class="w-8 h-1 bg-primary rounded-full"></div>
-  <div class="w-8 h-1 bg-accent rounded-full"></div>
-  <div class="w-8 h-1 bg-primary rounded-full"></div>
-</div>
-<div class="bg-white shadow-lg rounded-lg max-w-7xl mx-auto flex md:h-96 small:h-auto">
-  <div class="grid small:grid-cols-1 break1:grid-cols-3 gap-1 w-full relative">
+<div class="grid small:grid-cols-1 break1:grid-cols-3 gap-2 p-4 my-4 mx-auto rounded-md max-w-screen-8xl  bg-white shadow-xl">
 
+  <div class="flex flex-col shadow-md rounded-md">
+    <div
+      class="mx-auto flex prose justify-center after:w-10 after:h-1 py-1 after:bg-accent after:rounded-full after:absolute after:-bottom-1 relative">
+      <h2>HOW DO I?</h2>
+    </div>
+    <div class="flex flex-col my-2">
+      <div class="howDoI">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo pariatur, cum quia eos alias reprehenderit
+        incidunt?
+      </div>
+      <div class="howDoI">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo pariatur, cum quia eos alias reprehenderit
+        incidunt?
+      </div>
+      <div class="howDoI">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo pariatur, cum quia eos alias reprehenderit
+        incidunt?
+      </div>
+    </div>
   </div>
+
+  <div class="bg-gradient-to-l from-secondary to-primary shadow-md rounded-md">
+    <div class="mx-auto flex prose justify-center after:w-10 after:h-1 py-2 after:bg-accent  after:rounded-full after:absolute after:-bottom-1 relative">
+      <h2 class="text-white">PUBLICATION</h2>
+    </div>
+    <div>
+      <ul class="flex flex-col mx-2 my-4 gap-1">
+        <li class="pulicationItem">
+          <fa-icon [icon]="faFilePdf" size="lg"></fa-icon>
+          <div>Local Admin Details Of June</div>
+        </li>
+        <li class="pulicationItem">
+          <fa-icon [icon]="faFilePdf" size="lg"></fa-icon>
+          <div>Newsletter of June</div>
+        </li>
+        <li class="pulicationItem">
+          <fa-icon [icon]="faFilePdf" size="lg"></fa-icon>
+          <div>Magazine From Lorem Ipsum</div>
+        </li>
+        <li class="pulicationItem">
+          <fa-icon [icon]="faFilePdf" size="lg"></fa-icon>
+          <div>Magazine From Lorem Ipsum</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="flex flex-col bg-white shadow-md rounded-md">
+    <div
+      class="mx-auto flex prose justify-center after:w-10 after:h-1 py-1 after:bg-accent after:rounded-full after:absolute after:-bottom-1 relative">
+      <h2>VIDEOS</h2>
+    </div>
+
+    <div class="grid grid-cols-1 grid-rows-2 h-80 p-2">
+      <div class="shadow-md">
+        <iframe class="w-full aspect-video" src="https://i.ytimg.com/vi/VIDEO_ID/maxresdefault.jpg" allowfullscreen></iframe>
+      </div>
+      <div class="shadow-md">
+        <iframe class="w-full aspect-video" src="https://i.ytimg.com/vi/VIDEO_ID/maxresdefault.jpg" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
 </div>

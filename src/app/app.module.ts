@@ -18,6 +18,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { AboutusComponent } from './pages/aboutus/aboutus.component';
 import { HistoryComponent } from './pages/history/history.component';
 import { MainPagesComponent } from './pages/main-pages/main-pages.component';
+import { ServicesComponent } from './layout/homeSection/services/services.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { MainPagesComponent } from './pages/main-pages/main-pages.component';
     PagenotfoundComponent,
     AboutusComponent,
     HistoryComponent,
-    MainPagesComponent
+    MainPagesComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
